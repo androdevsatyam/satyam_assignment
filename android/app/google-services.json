@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1071357302433",
+    "project_id": "tvnine-8fd2a",
+    "storage_bucket": "tvnine-8fd2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071357302433:android:0430a619877a1b3449c2e0",
+        "android_client_info": {
+          "package_name": "com.androdev.assignment.satyam_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071357302433-247nsb5scvukm19v2s35krg0vf2vitd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn2qMEhOZSy-Ow1NERPhbayoxMN8bSzRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071357302433-247nsb5scvukm19v2s35krg0vf2vitd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
