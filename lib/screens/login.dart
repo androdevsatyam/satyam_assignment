@@ -42,7 +42,7 @@ class Login extends StatelessWidget {
                               horizontal: 25, vertical: 120),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
+                            children: [
                               Text(
                                 AppResources.signin,
                                 style: TextStyle(

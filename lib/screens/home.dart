@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:satyam_assignment/screens/welcome.dart';
 
+import '../app_resources.dart';
+
 class Home extends StatefulWidget {
 
   const Home({Key? key}) : super(key: key);
@@ -30,11 +32,22 @@ class _HomeState extends State<Home> {
             ),
             child: Container(
               alignment: Alignment.center,
-              child: Icon(
-                Icons.sentiment_very_satisfied,
-                color: _isSmiling ? Colors.green[700] : Colors.grey[700],
-                size: 60.0,
-              ),
+              child: Column(
+                children: [
+                  Text(
+                    AppResources.signup,
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 40,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  Icon(
+                    Icons.sentiment_very_satisfied,
+                    color: _isSmiling ? Colors.green[700] : Colors.grey[700],
+                    size: 60.0,
+                  ),
+                ],
+              )
             ),
           ),
         ),
@@ -46,7 +59,8 @@ class _HomeState extends State<Home> {
             //   _isSmiling = !_isSmiling;
             // });
           },
-          child: Icon(Icons.face),
+          child: Icon(Icons.login,
+          color: Colors.white,),
         ),
       ),
     );
