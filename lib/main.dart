@@ -3,6 +3,7 @@
   import 'package:flutter/material.dart';
   import 'package:get/get_navigation/src/root/get_material_app.dart';
   import 'package:satyam_assignment/app_resources.dart';
+import 'package:satyam_assignment/screens/my_screen.dart';
 
   import 'firebase_options.dart';
   import 'screens/welcome.dart';
@@ -40,7 +41,7 @@
         theme: ThemeData(
           primaryColor: Colors.green,
         ),
-        home: Welcome(),
+        home: MyScreen(),
       );
     }
   }
